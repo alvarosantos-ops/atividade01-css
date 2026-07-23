@@ -2,6 +2,7 @@ h1 {
     color: black;
     background-color: lightblue;
     text-align: center;
+    font-family: Calibri, sans-serif;
 }
 
 .descricao {
@@ -13,17 +14,20 @@ h2 {
     color: black;
     background-color: lightgreen;
     text-align: center;
+    font-family: "Times New Roman", sans-serif;
 }
 
 h3 {
     color: black;
     background-color: pink;
     text-align: center;
+    font-family: "Lucida Sans", serif;
 }
 
 body {
     padding-left: 300px;
     padding-right: 300px;
+    font-family: Arial, sans-serif;
 }
 
 body::before {
@@ -48,9 +52,41 @@ body::before {
     padding-right: 25px;
 }
 
-table {
-    color: black;
-    text-align: center;
+nav {
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;    /* Centraliza verticalmente */
+  background-color: black;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px; /* Espaçamento entre os links */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+
+.navbar {
+    margin-top: 20px;
 }
 
 .a {
@@ -61,21 +97,34 @@ h4 {
     background-color: yellow;
     color: black;
     text-align: center;
+    font-family: sans-serif;
 }
 
 p {
     color: black;
     text-align: justify;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 figcaption {
     color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 ul {
-    color: black
+    color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 figure {
     text-align: center;
+}
+
+.nota {
+    text-align: center;
+}
+
+address {
+    margin-bottom: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
